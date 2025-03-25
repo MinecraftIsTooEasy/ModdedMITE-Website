@@ -1,0 +1,33 @@
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "Modded MITE",
+  description: "Minecraft Is Too Easy with Extra Mods",
+  outDir: "dist",
+  srcDir: "src",
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '资源', link: '/resources' },
+      { text: '开发', link: '/developing' },
+      { text: '关于', link: '/about' }
+    ],
+
+    sidebar: [
+      {
+        text: '开发',
+        items: [
+          { text: 'FML 3 环境部署', link: '/developing/fml3env' },
+          { text: 'ManyLib 开发文档', link: '/developing/manylib' },
+          { text: '锈铁核心开发文档', link: '/developing/rustcore' }
+        ]
+      }
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
+  }
+})
