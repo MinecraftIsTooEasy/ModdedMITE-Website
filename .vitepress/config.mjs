@@ -17,6 +17,14 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '资源',
+        items: [
+          { text: '资源下载',link: '/resources/index' },
+          { text: 'FML 1- 模组下载', link: '/resources/mod_download/fml1' },
+          { text: 'FML 3+ 模组下载', link: '/resources/mod_download/fml3' }
+        ]
+      },
+      {
         text: '开发',
         items: [
           { text: 'FML 3 环境部署', link: '/developing/fml3env' },
