@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 相关资源
-      link: /resources
+      link: /resources/index
     - theme: alt
       text: 开发文档
-      link: /developing
+      link: /developing/index
 
 features:
   - title: 什么是 Modded MITE

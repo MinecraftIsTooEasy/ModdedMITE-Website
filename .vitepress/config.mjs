@@ -29,7 +29,14 @@ export default defineConfig({
         items: [
           { text: 'FML 3 环境部署', link: '/developing/fml3env' },
           { text: 'ManyLib 开发文档', link: '/developing/manylib' },
-          { text: '锈铁核心开发文档', link: '/developing/rustcore' }
+          { text: '锈铁核心开发文档', link: '/developing/rustcore' },
+          { text: 'FishModLoader 3 教程', link: '/developing/fml3tutor' }
+        ]
+      },
+      {
+        text: '关于',
+        items: [
+          { text: '关于我们', link: '/about'}
         ]
       }
     ],
